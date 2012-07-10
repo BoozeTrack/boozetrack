@@ -2,6 +2,8 @@
 # App-runner script
 #
 
+import os
+
 from booze import app
 
 if __name__ == '__main__':
