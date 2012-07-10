@@ -44,7 +44,7 @@
     pip install --upgrade requests
 
     # Required
-    PKG="flask"
+    PKG="flask flask-sqlalchemy"
     #PKG="$PKG git+git://github.com/pythonforfacebook/facebook-sdk.git"
 
     # Packages to help development

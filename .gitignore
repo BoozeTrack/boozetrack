@@ -4,3 +4,5 @@ lib*
 share
 
 *.pyc
+._*
+.DS_Store
