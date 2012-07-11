@@ -45,6 +45,8 @@
 
     # Required
     PKG="flask flask-sqlalchemy"
+    PKG="$PKG alembic"
+    PKG="$PKG psycopg2"
     #PKG="$PKG git+git://github.com/pythonforfacebook/facebook-sdk.git"
 
     # Packages to help development
