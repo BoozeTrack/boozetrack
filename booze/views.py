@@ -1,5 +1,8 @@
 from booze import app
 from flask import render_template
+from flask import jsonify
+
+import os
 
 @app.route('/')
 def index():
@@ -12,3 +15,6 @@ def login():
     else:
         pass
 
+@app.route('/env')
+def env():
+    return jsonify(os.environ)
